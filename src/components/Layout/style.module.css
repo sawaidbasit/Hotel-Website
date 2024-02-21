@@ -1,0 +1,41 @@
+.logo {
+    width: 100px;
+    height: auto;
+    object-fit: cover;
+  
+    @media(max-width: $mantine-breakpoint-md) {
+      display: none;
+    }
+  }
+
+.navbar{
+  font-weight: 700;
+}  
+
+.HeaderFlex{
+  gap: 20px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.Headers{
+  width: 100%;
+  gap: 20px;
+  justify-content: center;
+  /* justify-content: space-between; */
+}
+
+.link {
+  display: block;
+  line-height: 1;
+  padding: rem(8px) rem(12px);
+  text-decoration: none;
+  color: var(--ligth-text-color);
+  font-size: var(--mantine-font-size-sm);
+  font-weight: 500;
+  font-size: 15px;
+
+  @mixin hover {
+    color: var(--mantine-primary-color-filled);
+  }
+}

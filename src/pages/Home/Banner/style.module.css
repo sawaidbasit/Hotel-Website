@@ -1,0 +1,97 @@
+.banner{
+    background-color: #3478F5;
+    padding: 20px 0px;
+}
+
+.flexBox{
+    justify-content: space-between;
+    gap: 30px;
+    /* position: relative; */
+}
+
+.QrCode{
+    width: 100%;
+    max-width: 200px;
+    height: 100%;
+    max-height: 200px;
+}
+
+.firstBox{
+    width: 100%;
+    max-width: 600px;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    @media(max-width: $mantine-breakpoint-xs){
+        flex-direction: column;
+        gap: 0px;
+    }
+}
+
+.bannerTitle{
+    color: white;
+    font-weight: 700;
+    font-size: 38px;
+    width: 100%;
+    line-height: 40px;
+    @media(max-width:$mantine-breakpoint-sm){
+        font-size: 33px;
+        line-height: 40px;
+    }
+    @media(max-width:$mantine-breakpoint-xs){
+        font-size: 27px;
+        line-height: 35px;
+    }
+}
+
+
+.AppStore{
+    width: 350px;
+    height: 40px;
+    @media(max-width: $mantine-breakpoint-xs){
+        width: 250px;
+    }
+}
+
+.GoogleStore{
+    width: 350px;
+    height: 40px;
+    @media(max-width: $mantine-breakpoint-xs){
+        width: 250px;
+    }
+}
+
+.SecondBox{
+    width: 100%;
+    max-width: 200px;
+    display: flex;
+    justify-content: right;
+    @media(max-width:$mantine-breakpoint-sm){
+        display: none;
+    }
+}
+.MobileImage{
+    width: 100%;
+    height: 100%;
+}
+
+.ImageParent{
+    width: 200px;
+    height: 280px;  
+}
+
+@media(max-width : 320px){
+    .ImageFlex{
+        gap: 0px;
+        flex-direction: column;
+    }
+    .AppStore{
+        width: 200px;
+    }
+    .GoogleStore{
+        width: 200px;
+    }
+    .bannerTitle{
+        text-align: center;
+    }
+}

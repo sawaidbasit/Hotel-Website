@@ -1,0 +1,51 @@
+.TabsList{
+    border: none;
+    background-color: #F4F5F9;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+
+.Maintitle{
+    font-weight: 700;
+    font-size: 46px;
+    width: 100%;
+    line-height: 50px;
+    max-width: 700px;
+    @media(max-width:$mantine-breakpoint-sm){
+        font-size: 35px;
+        line-height: 40px;
+    }
+    @media(max-width:$mantine-breakpoint-xs){
+        font-size: 27px;
+        line-height: 35px;
+    }
+}
+.Tab{
+    /* background-color: aqua; */
+}
+.Card{
+    border: 1px solid black;
+}
+
+.CardImage{
+    width: 100%;
+}
+
+.title{
+    margin-top: 10px;
+    font-weight: 600;
+}
+
+.text{
+    margin-top: 20px;
+    color: #BAB9BF;
+}
+
+.Tabs.Tab{
+    border: none;
+}
+
+.contentBox{
+    padding: 0px 20px;
+}
