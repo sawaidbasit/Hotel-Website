@@ -16,7 +16,7 @@ export function HomePage() {
             <ServiceCards/>
             <Space h={50}/>
             <TabCard/>
-            <Space h={50}/>
+            <Space h={70}/>
             <Banner/>
             <Space h={50}/>
             <Footer/>

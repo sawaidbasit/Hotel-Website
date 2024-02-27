@@ -1332,6 +1332,13 @@
     react-textarea-autosize "8.5.3"
     type-fest "^3.13.1"
 
+"@mantine/dates@^7.5.3":
+  version "7.5.3"
+  resolved "https://registry.npmjs.org/@mantine/dates/-/dates-7.5.3.tgz"
+  integrity sha512-v6fFdW+7HAd7XsZFMJVMuFE2RHbQAVnsUNeP0/5h+H4qEj0soTmMvHPP8wXEed5v85r9CcEMGOGq1n6RFRpWHA==
+  dependencies:
+    clsx "2.0.0"
+
 "@mantine/hooks@7.5.3":
   version "7.5.3"
   resolved "https://registry.npmjs.org/@mantine/hooks/-/hooks-7.5.3.tgz"
@@ -3763,6 +3770,11 @@ data-urls@^5.0.0:
   dependencies:
     whatwg-mimetype "^4.0.0"
     whatwg-url "^14.0.0"
+
+dayjs@>=1.0.0:
+  version "1.11.10"
+  resolved "https://registry.npmjs.org/dayjs/-/dayjs-1.11.10.tgz"
+  integrity sha512-vjAczensTgRcqDERK0SR2XMwsF/tSvnvlv6VcF2GIhg6Sx4yOIt/irsr1RDJsKiIyBzJDpCoXiWWq28MqH2cnQ==
 
 debug@^2.6.9:
   version "2.6.9"

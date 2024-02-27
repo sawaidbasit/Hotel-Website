@@ -2,7 +2,6 @@
     background-image: url('../../../assets/como-point-yamu-villa-exterior-1517327850.jpg');
     background-size:cover;
     width: 100%;
-    height: fit-content;
     padding-bottom: 20px;
     background-position: left;
     background-color:#BFE1FD;
@@ -34,6 +33,7 @@
 .TabPanel{
     padding: 10px;
     align-items: flex-end;
+    background-color: white;
 }
 
 .Tabs_tab{

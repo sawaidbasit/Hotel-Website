@@ -1,12 +1,12 @@
 .banner{
     background-color: #3478F5;
     padding: 20px 0px;
+    position: relative;
 }
 
 .flexBox{
     justify-content: space-between;
     gap: 30px;
-    /* position: relative; */
 }
 
 .QrCode{
@@ -22,6 +22,9 @@
     display: flex;
     gap: 20px;
     align-items: center;
+    @media(max-width:$mantine-breakpoint-md){
+        max-width: 100%;
+    }
     @media(max-width: $mantine-breakpoint-xs){
         flex-direction: column;
         gap: 0px;
@@ -66,7 +69,7 @@
     max-width: 200px;
     display: flex;
     justify-content: right;
-    @media(max-width:$mantine-breakpoint-sm){
+    @media(max-width:$mantine-breakpoint-md){
         display: none;
     }
 }
@@ -76,8 +79,16 @@
 }
 
 .ImageParent{
-    width: 200px;
-    height: 280px;  
+    height:300px;  
+    position: absolute;
+    top:50;
+    bottom: 0;
+    /* left: 0; */
+    /* right: 0; */
+}
+
+.ImageFlex{
+    gap: 10px;
 }
 
 @media(max-width : 320px){

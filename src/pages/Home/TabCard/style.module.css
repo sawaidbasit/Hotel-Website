@@ -2,18 +2,18 @@
     border: none;
     background-color: #F4F5F9;
     display: flex;
+    justify-content: center;
     flex-wrap: nowrap;
 }
 
 
 .Maintitle{
     font-weight: 700;
-    font-size: 46px;
-    width: 100%;
+    font-size: 35px;
+    text-align: center;
     line-height: 50px;
-    max-width: 700px;
     @media(max-width:$mantine-breakpoint-sm){
-        font-size: 35px;
+        font-size: 33px;
         line-height: 40px;
     }
     @media(max-width:$mantine-breakpoint-xs){
@@ -26,19 +26,23 @@
 }
 .Card{
     border: 1px solid black;
+    border-radius: 6px;
+    height: 100%;
+    min-height: 400px;
 }
 
 .CardImage{
     width: 100%;
+    height: 200px;
 }
-
 .title{
     margin-top: 10px;
-    font-weight: 600;
+    font-weight: 700;
+    font-size: 20px;
 }
 
 .text{
-    margin-top: 20px;
+    margin-top: 10px;
     color: #BAB9BF;
 }
 

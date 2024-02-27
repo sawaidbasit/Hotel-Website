@@ -5,32 +5,36 @@ import classes from './style.module.css';
 export function Cards() {
   return (
     <Box className={classes.cardContainer}>
-      <SimpleGrid cols={{ lg: 4, md: 4, sm: 3, xs: 3, base: 2 }}>
+      <Flex justify={"space-between"} className={classes.CardGrid}>
         <Box className={classes.cardBox}>
           <Flex gap={'10px'}>
-            <Text className={classes.Text}>Lorem</Text>
-            <Text className={classes.LightText}>Loremlipsum</Text>
+            <Text className={classes.Text}>Luxury</Text>
+            <Text className={classes.LightText}>Unparalleled comfort awaits.
+</Text>
           </Flex>
         </Box>
         <Box className={classes.cardBox}>
           <Flex gap={'10px'}>
-            <Text className={classes.Text}>Lorem</Text>
-            <Text className={classes.LightText}>Loremlipsum</Text>
+            <Text className={classes.Text}>Adventure</Text>
+            <Text className={classes.LightText}>Thrills beyond compare.
+</Text>
           </Flex>
         </Box>
         <Box className={classes.cardBox}>
           <Flex gap={'10px'}>
-            <Text className={classes.Text}>Lorem</Text>
-            <Text className={classes.LightText}>Loremlipsum</Text>
+            <Text className={classes.Text}>Serenity</Text>
+            <Text className={classes.LightText}>Peaceful oasis found.
+</Text>
           </Flex>
         </Box>
         <Box className={classes.cardBox}>
           <Flex gap={'10px'}>
-            <Text className={classes.Text}>Lorem</Text>
-            <Text className={classes.LightText}>Loremlipsum</Text>
+            <Text className={classes.Text}>Indulgence</Text>
+            <Text className={classes.LightText}>Decadence redefined here.
+</Text>
           </Flex>
         </Box>
-      </SimpleGrid>
+      </Flex>
     </Box>
   );
 }

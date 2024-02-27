@@ -2,23 +2,35 @@
     padding: 20px 0px;
 }
 
+.CardGrid{
+    flex-wrap: wrap;
+    gap: 20px;
+    @media(max-width: $mantine-breakpoint-xs){
+        flex-direction: column;
+    }
+}
+
 .cardBox{
-    border-right: 1px solid #C4C3C8;
+    /* border-right: 1px solid #C4C3C8; */
+    width: 280px;
+    @media(max-width: $mantine-breakpoint-xs){
+        width: 100%;
+    }
 }
 
 .Text{
     font-weight: 600;
-    font-size: 18px;
+    font-size: 15px;
     @media(max-width: $mantine-breakpoint-xs){
-        font-size: 13px;
+        font-size: 15px;
     }
 }
 
 .LightText{
-    font-size: 18px;
+    font-size: 15px;
     color: #C4C3C8;
     @media(max-width: $mantine-breakpoint-xs){
-        font-size: 13px;
+        font-size: 15px;
     }
 }
 
